@@ -1,0 +1,1 @@
+../../../../../Map/Map/Source/Gaode/Base/GDBaseObject.h

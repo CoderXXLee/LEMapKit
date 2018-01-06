@@ -1,0 +1,24 @@
+//
+//  GDMapRideNaviVC.h
+//  Pods
+//
+//  Created by mac on 2017/6/20.
+//
+//
+
+#import <UIKit/UIKit.h>
+#import "IMapNavi.h"
+
+@interface GDMapNaviRideVC : UIViewController <IMapNavi>
+
+/**
+ 终点坐标
+ */
+@property(nonatomic, assign) CLLocationCoordinate2D endCoor;
+
+/**
+ 导航播报回调
+ */
+@property(nonatomic, copy) bMapNaviPlayNaviSoundString bPlayNaviSound;
+
+@end

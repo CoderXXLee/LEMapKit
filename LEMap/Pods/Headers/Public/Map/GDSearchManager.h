@@ -1,0 +1,1 @@
+../../../../../Map/Map/Source/Gaode/Search/GDSearchManager.h

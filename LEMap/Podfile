@@ -1,0 +1,19 @@
+#source 'https://github.com/Artsy/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+#————
+
+target 'LEMap' do
+    pod 'ReactiveObjC', '~> 2.1.2'
+    #地图
+    pod 'AMap3DMap', '~> 5.3.0'
+    pod 'AMapLocation', '~> 2.4.0'
+    pod 'AMapSearch', '~> 5.3.0'
+    pod 'AMapFoundation', '~> 1.4.2'
+    #地图
+    pod 'Map/Map', :path => '../Map’
+#    pod 'Map/MapNavi', :path => '../Map'
+end
+#use_frameworks!

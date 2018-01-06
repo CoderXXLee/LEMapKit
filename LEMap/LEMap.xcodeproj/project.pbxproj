@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043DB30B2000A08C00DBDDC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB30A2000A08C00DBDDC4 /* AppDelegate.m */; };
+		043DB30E2000A08C00DBDDC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB30D2000A08C00DBDDC4 /* ViewController.m */; };
+		043DB3112000A08C00DBDDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043DB30F2000A08C00DBDDC4 /* Main.storyboard */; };
+		043DB3132000A08C00DBDDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043DB3122000A08C00DBDDC4 /* Assets.xcassets */; };
+		043DB3162000A08C00DBDDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043DB3142000A08C00DBDDC4 /* LaunchScreen.storyboard */; };
+		043DB3192000A08C00DBDDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB3182000A08C00DBDDC4 /* main.m */; };
+		043DB3202000A2E900DBDDC4 /* MapImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 043DB31F2000A2E900DBDDC4 /* MapImage.bundle */; };
+		043DB3232000A50700DBDDC4 /* BMHomeMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB3212000A50700DBDDC4 /* BMHomeMapVC.m */; };
+		043DB3332000A55C00DBDDC4 /* BMBaseMapConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB3292000A55C00DBDDC4 /* BMBaseMapConst.m */; };
+		043DB3342000A55C00DBDDC4 /* BMBaseMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB32B2000A55C00DBDDC4 /* BMBaseMapVC.m */; };
+		043DB3352000A55C00DBDDC4 /* BMMap.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043DB32C2000A55C00DBDDC4 /* BMMap.xcassets */; };
+		043DB3362000A55C00DBDDC4 /* BMMapEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB32E2000A55C00DBDDC4 /* BMMapEngine.m */; };
+		043DB3372000A55C00DBDDC4 /* BMMapOverlayProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB3302000A55C00DBDDC4 /* BMMapOverlayProperty.m */; };
+		043DB3382000A55C00DBDDC4 /* BMUserAnnotationV.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB3322000A55C00DBDDC4 /* BMUserAnnotationV.m */; };
+		043DB33B2000B37500DBDDC4 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB33A2000B37500DBDDC4 /* UIView+AutoLayout.m */; };
+		043DB33E2000B39500DBDDC4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB33D2000B39500DBDDC4 /* UIView+Extension.m */; };
+		043DB3412000B56B00DBDDC4 /* UIInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DB33F2000B56B00DBDDC4 /* UIInfomationView.m */; };
+		C5B160C514711688497FEC09 /* libPods-LEMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFA38C744D7B9AAE8AC935 /* libPods-LEMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043DB3062000A08C00DBDDC4 /* LEMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043DB3092000A08C00DBDDC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043DB30A2000A08C00DBDDC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043DB30C2000A08C00DBDDC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043DB30D2000A08C00DBDDC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043DB3102000A08C00DBDDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043DB3122000A08C00DBDDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043DB3152000A08C00DBDDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043DB3172000A08C00DBDDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043DB3182000A08C00DBDDC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043DB31F2000A2E900DBDDC4 /* MapImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MapImage.bundle; sourceTree = "<group>"; };
+		043DB3212000A50700DBDDC4 /* BMHomeMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeMapVC.m; sourceTree = "<group>"; };
+		043DB3222000A50700DBDDC4 /* BMHomeMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeMapVC.h; sourceTree = "<group>"; };
+		043DB3282000A55C00DBDDC4 /* BMBaseMapConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBaseMapConst.h; sourceTree = "<group>"; };
+		043DB3292000A55C00DBDDC4 /* BMBaseMapConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBaseMapConst.m; sourceTree = "<group>"; };
+		043DB32A2000A55C00DBDDC4 /* BMBaseMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBaseMapVC.h; sourceTree = "<group>"; };
+		043DB32B2000A55C00DBDDC4 /* BMBaseMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBaseMapVC.m; sourceTree = "<group>"; };
+		043DB32C2000A55C00DBDDC4 /* BMMap.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BMMap.xcassets; sourceTree = "<group>"; };
+		043DB32D2000A55C00DBDDC4 /* BMMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMapEngine.h; sourceTree = "<group>"; };
+		043DB32E2000A55C00DBDDC4 /* BMMapEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMapEngine.m; sourceTree = "<group>"; };
+		043DB32F2000A55C00DBDDC4 /* BMMapOverlayProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMapOverlayProperty.h; sourceTree = "<group>"; };
+		043DB3302000A55C00DBDDC4 /* BMMapOverlayProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMapOverlayProperty.m; sourceTree = "<group>"; };
+		043DB3312000A55C00DBDDC4 /* BMUserAnnotationV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMUserAnnotationV.h; sourceTree = "<group>"; };
+		043DB3322000A55C00DBDDC4 /* BMUserAnnotationV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMUserAnnotationV.m; sourceTree = "<group>"; };
+		043DB3392000B37500DBDDC4 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		043DB33A2000B37500DBDDC4 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		043DB33C2000B39500DBDDC4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		043DB33D2000B39500DBDDC4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		043DB33F2000B56B00DBDDC4 /* UIInfomationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInfomationView.m; sourceTree = "<group>"; };
+		043DB3402000B56B00DBDDC4 /* UIInfomationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInfomationView.h; sourceTree = "<group>"; };
+		97AFA38C744D7B9AAE8AC935 /* libPods-LEMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LEMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68A43AA862B914CA999045B /* Pods-LEMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LEMap/Pods-LEMap.debug.xcconfig"; sourceTree = "<group>"; };
+		CEBC17C6B894E35345CC4116 /* Pods-LEMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-LEMap/Pods-LEMap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043DB3032000A08B00DBDDC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B160C514711688497FEC09 /* libPods-LEMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043DB2FD2000A08B00DBDDC4 = {
+			isa = PBXGroup;
+			children = (
+				043DB3082000A08C00DBDDC4 /* LEMap */,
+				043DB3072000A08C00DBDDC4 /* Products */,
+				B3B71485FEE11F03CE18988F /* Pods */,
+				F678856390955DB1B1D391E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043DB3072000A08C00DBDDC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043DB3062000A08C00DBDDC4 /* LEMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043DB3082000A08C00DBDDC4 /* LEMap */ = {
+			isa = PBXGroup;
+			children = (
+				043DB3402000B56B00DBDDC4 /* UIInfomationView.h */,
+				043DB33F2000B56B00DBDDC4 /* UIInfomationView.m */,
+				043DB3272000A55C00DBDDC4 /* BMMap */,
+				043DB31F2000A2E900DBDDC4 /* MapImage.bundle */,
+				043DB3092000A08C00DBDDC4 /* AppDelegate.h */,
+				043DB30A2000A08C00DBDDC4 /* AppDelegate.m */,
+				043DB30C2000A08C00DBDDC4 /* ViewController.h */,
+				043DB30D2000A08C00DBDDC4 /* ViewController.m */,
+				043DB3222000A50700DBDDC4 /* BMHomeMapVC.h */,
+				043DB3212000A50700DBDDC4 /* BMHomeMapVC.m */,
+				043DB30F2000A08C00DBDDC4 /* Main.storyboard */,
+				043DB3122000A08C00DBDDC4 /* Assets.xcassets */,
+				043DB3142000A08C00DBDDC4 /* LaunchScreen.storyboard */,
+				043DB3172000A08C00DBDDC4 /* Info.plist */,
+				043DB3182000A08C00DBDDC4 /* main.m */,
+			);
+			path = LEMap;
+			sourceTree = "<group>";
+		};
+		043DB3272000A55C00DBDDC4 /* BMMap */ = {
+			isa = PBXGroup;
+			children = (
+				043DB33C2000B39500DBDDC4 /* UIView+Extension.h */,
+				043DB33D2000B39500DBDDC4 /* UIView+Extension.m */,
+				043DB3392000B37500DBDDC4 /* UIView+AutoLayout.h */,
+				043DB33A2000B37500DBDDC4 /* UIView+AutoLayout.m */,
+				043DB3282000A55C00DBDDC4 /* BMBaseMapConst.h */,
+				043DB3292000A55C00DBDDC4 /* BMBaseMapConst.m */,
+				043DB32A2000A55C00DBDDC4 /* BMBaseMapVC.h */,
+				043DB32B2000A55C00DBDDC4 /* BMBaseMapVC.m */,
+				043DB32C2000A55C00DBDDC4 /* BMMap.xcassets */,
+				043DB32D2000A55C00DBDDC4 /* BMMapEngine.h */,
+				043DB32E2000A55C00DBDDC4 /* BMMapEngine.m */,
+				043DB32F2000A55C00DBDDC4 /* BMMapOverlayProperty.h */,
+				043DB3302000A55C00DBDDC4 /* BMMapOverlayProperty.m */,
+				043DB3312000A55C00DBDDC4 /* BMUserAnnotationV.h */,
+				043DB3322000A55C00DBDDC4 /* BMUserAnnotationV.m */,
+			);
+			path = BMMap;
+			sourceTree = "<group>";
+		};
+		B3B71485FEE11F03CE18988F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B68A43AA862B914CA999045B /* Pods-LEMap.debug.xcconfig */,
+				CEBC17C6B894E35345CC4116 /* Pods-LEMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F678856390955DB1B1D391E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97AFA38C744D7B9AAE8AC935 /* libPods-LEMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043DB3052000A08B00DBDDC4 /* LEMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043DB31C2000A08C00DBDDC4 /* Build configuration list for PBXNativeTarget "LEMap" */;
+			buildPhases = (
+				A86E0B029F9F3AF112CB90C0 /* [CP] Check Pods Manifest.lock */,
+				043DB3022000A08B00DBDDC4 /* Sources */,
+				043DB3032000A08B00DBDDC4 /* Frameworks */,
+				043DB3042000A08B00DBDDC4 /* Resources */,
+				D7F3EC6F4DA7E59EF864E9D6 /* [CP] Embed Pods Frameworks */,
+				790B8F5BB0C139A069FAF1CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEMap;
+			productName = LEMap;
+			productReference = 043DB3062000A08C00DBDDC4 /* LEMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043DB2FE2000A08B00DBDDC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = le;
+				TargetAttributes = {
+					043DB3052000A08B00DBDDC4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 043DB3012000A08B00DBDDC4 /* Build configuration list for PBXProject "LEMap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043DB2FD2000A08B00DBDDC4;
+			productRefGroup = 043DB3072000A08C00DBDDC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043DB3052000A08B00DBDDC4 /* LEMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043DB3042000A08B00DBDDC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043DB3202000A2E900DBDDC4 /* MapImage.bundle in Resources */,
+				043DB3352000A55C00DBDDC4 /* BMMap.xcassets in Resources */,
+				043DB3162000A08C00DBDDC4 /* LaunchScreen.storyboard in Resources */,
+				043DB3132000A08C00DBDDC4 /* Assets.xcassets in Resources */,
+				043DB3112000A08C00DBDDC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		790B8F5BB0C139A069FAF1CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEMap/Pods-LEMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86E0B029F9F3AF112CB90C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F3EC6F4DA7E59EF864E9D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LEMap/Pods-LEMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043DB3022000A08B00DBDDC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043DB30E2000A08C00DBDDC4 /* ViewController.m in Sources */,
+				043DB3382000A55C00DBDDC4 /* BMUserAnnotationV.m in Sources */,
+				043DB33E2000B39500DBDDC4 /* UIView+Extension.m in Sources */,
+				043DB3342000A55C00DBDDC4 /* BMBaseMapVC.m in Sources */,
+				043DB3362000A55C00DBDDC4 /* BMMapEngine.m in Sources */,
+				043DB3372000A55C00DBDDC4 /* BMMapOverlayProperty.m in Sources */,
+				043DB3412000B56B00DBDDC4 /* UIInfomationView.m in Sources */,
+				043DB33B2000B37500DBDDC4 /* UIView+AutoLayout.m in Sources */,
+				043DB3192000A08C00DBDDC4 /* main.m in Sources */,
+				043DB30B2000A08C00DBDDC4 /* AppDelegate.m in Sources */,
+				043DB3332000A55C00DBDDC4 /* BMBaseMapConst.m in Sources */,
+				043DB3232000A50700DBDDC4 /* BMHomeMapVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043DB30F2000A08C00DBDDC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043DB3102000A08C00DBDDC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043DB3142000A08C00DBDDC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043DB3152000A08C00DBDDC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043DB31A2000A08C00DBDDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043DB31B2000A08C00DBDDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043DB31D2000A08C00DBDDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68A43AA862B914CA999045B /* Pods-LEMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2RR74LEMP;
+				INFOPLIST_FILE = LEMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.le.LEMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043DB31E2000A08C00DBDDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEBC17C6B894E35345CC4116 /* Pods-LEMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2RR74LEMP;
+				INFOPLIST_FILE = LEMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.le.LEMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043DB3012000A08B00DBDDC4 /* Build configuration list for PBXProject "LEMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DB31A2000A08C00DBDDC4 /* Debug */,
+				043DB31B2000A08C00DBDDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043DB31C2000A08C00DBDDC4 /* Build configuration list for PBXNativeTarget "LEMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DB31D2000A08C00DBDDC4 /* Debug */,
+				043DB31E2000A08C00DBDDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043DB2FE2000A08B00DBDDC4 /* Project object */;
+}
